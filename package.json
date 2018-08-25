@@ -1,0 +1,30 @@
+{
+  "name": "task-waiter",
+  "version": "0.1.0",
+  "description": "Wait a task is completed",
+  "author": "Kengo Nakatsuka <kengo.nakatsuka@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/nak2k/node-task-waiter/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "^4.9.1"
+  },
+  "homepage": "https://github.com/nak2k/node-task-waiter",
+  "keywords": [],
+  "license": "MIT",
+  "main": "lib",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nak2k/node-task-waiter.git"
+  },
+  "scripts": {
+    "prepublishOnly": "npm test",
+    "postpublish": "npm-sns",
+    "test": "tape test/*.js"
+  },
+  "files": [
+    "README.md",
+    "lib/"
+  ]
+}
