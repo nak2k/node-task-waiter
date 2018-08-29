@@ -36,6 +36,10 @@ This function returns a following function:
     - A function to specify a function that is called after the task is completed.
     - The `callback` function is called with arguments that are passed when the callback of the task is called.
 
+## lazy(task)
+
+This function can be called the same as `wait(task)` except the task is called after the first `then` function call.
+
 ## License
 
 MIT
